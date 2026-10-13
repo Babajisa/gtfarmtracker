@@ -55,8 +55,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-4 flex items-center justify-center font-mono">
-      <div className="w-full max-w-md">
+        <main className="min-h-screen bg-gradient-to-br from-green-950 via-green-900 to-emerald-950 text-white p-4 flex items-center justify-center font-mono relative overflow-hidden">      <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-green-400 mb-2">
             🌱 Growtopia Farm Tracker
@@ -65,8 +64,8 @@ export default function RegisterPage() {
         </div>
 
         <form
-          onSubmit={handleSubmit}
-          className="bg-gray-800 border border-gray-700 rounded-lg p-6 space-y-4"
+        onSubmit={handleSubmit}
+        className="bg-green-950/80 backdrop-blur-sm border-2 border-green-700/50 rounded-2xl p-6 space-y-4 shadow-2xl shadow-green-900/50 w-full max-w-md relative z-10"
         >
           <h2 className="text-xl font-bold text-green-400 mb-2">
             ✨ Registrasi
